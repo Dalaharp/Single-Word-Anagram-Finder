@@ -2,8 +2,6 @@
 
 This C++ code defines a program that finds single-word anagrams for a given input word within a provided wordlist. Here's a breakdown of the code:
 
-The program includes necessary header files, such as <iostream>, <fstream>, <vector>, and <unordered_map>, and also the <algorithm> header for the sort function.
-
 The loadWordlist function reads a wordlist from a file and stores it in a vector of strings. Each line from the file is treated as a separate word.
 
 The getKey function takes a word as input and returns a unique key for that word by sorting its characters.
