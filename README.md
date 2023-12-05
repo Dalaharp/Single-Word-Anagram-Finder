@@ -11,5 +11,5 @@ The getKey function takes a word as input and returns a unique key for that word
 The main function, anagram, takes an input word and a wordlist as parameters. It builds a dictionary (implemented using an unordered_map) where the key is a unique key generated for each word, and the value is a vector of strings containing all words with the same key (anagrams).
 
 The main function then generates a key for the input word and retrieves the vector of anagrams associated with that key from the map.
-
+ 
 The commented-out main function shows how to use the loadWordlist and anagram functions. It prompts the user to enter a word, loads a wordlist from a file ("wordlist.txt"), and finds and displays the anagrams of the input word.
